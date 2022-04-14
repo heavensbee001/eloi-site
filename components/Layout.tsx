@@ -3,12 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import BurgerMenu from "./BurgerMenu";
 
-export default function Layout({
-    children,
-}: {
-    children: React.ReactNode;
-    id?: string;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <section className="w-screen bg-orange min-h-screen bg-[url('/background_mobile.png')] bg-cover">
             <header className="fixed h-12 w-screen text-center pt-2 z-20">
