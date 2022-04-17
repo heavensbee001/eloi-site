@@ -1,4 +1,5 @@
-import { FC, Fragment, useState } from "react";
+import { useRouter } from "next/router";
+import { FC, Fragment, useEffect, useState } from "react";
 import Menu from "./Menu";
 
 export default function BurgerMenu() {
@@ -6,6 +7,20 @@ export default function BurgerMenu() {
     const handleClick = () => {
         setActive(!active);
     };
+
+    const router = useRouter();
+    useEffect(() => {
+        const handleRouteChange = (url: any, { shallow }: { shallow: any }) => {
+            setActive(false);
+        };
+
+        router.events.on("routeChangeStart", handleRouteChange);
+
+        return () => {
+            router.events.off("routeChangeStart", handleRouteChange);
+        };
+    }, [router.events]);
+
     return (
         <Fragment>
             <section
@@ -40,6 +55,12 @@ export default function BurgerMenu() {
                 </div>
             </section>
             <Menu active={active} />
+            {active && (
+                <section
+                    className="fixed top-0 left-0 w-screen h-screen z-5"
+                    onClick={() => setActive(false)}
+                ></section>
+            )}
         </Fragment>
     );
 }
