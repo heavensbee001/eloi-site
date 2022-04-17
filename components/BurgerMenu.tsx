@@ -1,6 +1,4 @@
 import { FC, Fragment, useState } from "react";
-import Head from "next/head";
-import Image from "next/image";
 import Menu from "./Menu";
 
 export default function BurgerMenu() {

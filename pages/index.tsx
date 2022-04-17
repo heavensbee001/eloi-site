@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
             <section className="mt-32">
                 <h1 className="font-sans text-white text-xl mb-6">
-                    Hi! I'm Eloi
+                    Hi! I&apos;m Eloi
                 </h1>
                 <p className="font-mono text-white">
                     I’m a full stack web developer. Passionate about innovation
