@@ -8,13 +8,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <header className="fixed top-0 left-0 h-12 w-full pt-2 z-20 flex justify-center">
                 <div className="w-full max-w-screen-md text-center relative">
                     <Link href="/" passHref>
-                        <Image
-                            src="/eloi.svg"
-                            alt="eloi"
-                            width={80}
-                            height={40}
-                            className="z-20"
-                        />
+                        <a>
+                            <Image
+                                src="/eloi.svg"
+                                alt="eloi"
+                                width={80}
+                                height={40}
+                                className="z-20"
+                            />
+                        </a>
                     </Link>
                     <BurgerMenu />
                 </div>

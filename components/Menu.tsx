@@ -7,9 +7,9 @@ export default function Menu({ active }: { active: boolean }) {
         { name: "art", href: "/art" },
     ];
     const socials = [
-        { name: "github", href: "", img: "" },
-        { name: "twitter", href: "", img: "" },
-        { name: "linkedin", href: "", img: "" },
+        { name: "github", href: "/", img: "" },
+        { name: "twitter", href: "/", img: "" },
+        { name: "linkedin", href: "/", img: "" },
     ];
     return (
         <section
