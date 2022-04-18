@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import Card from "../components/Card";
+import Head from "next/head";
 
 export default function Jobs() {
     const router = useRouter();
@@ -31,6 +32,9 @@ export default function Jobs() {
 
     return (
         <section>
+            <Head>
+                <title>eloi | career</title>
+            </Head>
             <h2 className="font-sans text-white text-xl mb-6 ml-4">career</h2>
             {cardsData.map((card, index) => (
                 <Card {...card} key={index} />
