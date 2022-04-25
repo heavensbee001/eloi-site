@@ -1,10 +1,8 @@
-import { useContext, useState } from "react";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
 import Card from "../components/Card";
 import Head from "next/head";
 
-export default function Jobs() {
+export default function Career() {
     const router = useRouter();
 
     const cardsData: { title: string; subtitle: string; text: string }[] = [
