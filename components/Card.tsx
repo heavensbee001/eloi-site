@@ -9,7 +9,7 @@ export default function Card({
 }: {
     title: string;
     subtitle: string;
-    text?: string;
+    text?: any;
     img?: string;
     url?: string;
 }) {
@@ -17,7 +17,7 @@ export default function Card({
         <div className="bg-black bg-opacity-50 p-4 mb-4">
             <h4 className="font-sans text-white">{title}</h4>
             <span className="font-mono text-orange">{subtitle}</span>
-            {text && <p className="font-mono text-white">{text}</p>}
+            {text && <span className="font-mono text-white">{text}</span>}
             {img && (
                 <div className="h-56 mt-4 -m-4">
                     <div className="relative w-full h-full mt-4">

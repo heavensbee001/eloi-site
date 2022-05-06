@@ -5,26 +5,72 @@ import Head from "next/head";
 export default function Career() {
     const router = useRouter();
 
-    const cardsData: { title: string; subtitle: string; text: string }[] = [
+    const cardsData: { title: string; subtitle: string; text: any }[] = [
         {
             title: "Lemonade Software",
             subtitle: "current",
-            text: "Lorem Ipsum kashdgfkashdfg jahsdgf oajdfgjafgdsj test",
+            text: "",
         },
         {
             title: "Parlem Telecom",
             subtitle: "02/2020-12/2020",
-            text: "Lorem Ipsum kashdgfkashdfg jahsdgf oajdfgjafgdsj test",
+            text: (
+                <span>
+                    <p>
+                        - Technical management and development of company’s web
+                        application (Vue) and mobile app (React Native)
+                    </p>
+                    <p>
+                        - Develop several micro-services and backoffice software
+                        with Node + Express, NuxtJS, MongoDB, MySQL and Google
+                        Cloud.
+                    </p>
+                </span>
+            ),
         },
         {
             title: "CROWD",
             subtitle: "09/2018-02/2020",
-            text: "Lorem Ipsum kashdgfkashdfg jahsdgf oajdfgjafgdsj test",
+            text: (
+                <span>
+                    <p>
+                        - Full Stack development of many webs using different
+                        Javascript technologies such as React, Vue, Node,
+                        Express ...
+                    </p>
+                    <p>
+                        - Work with companies like SEAT, Bimba y Lola, Xarit,
+                        ISDIN or The Ricky Rubio Foundation.
+                    </p>
+                    <p>
+                        - Deal directly with clients and diverse profiles (ie.
+                        Designers, Marketing, Systems, Art Directors...).
+                    </p>
+                    <p>
+                        - Continuous usability improvement providing and
+                        implementing feedback.
+                    </p>
+                    <p>- Lead open coding workshops with Spark AR.</p>
+                </span>
+            ),
         },
         {
             title: "Ironhack",
             subtitle: "12/2017-09/2018",
-            text: "Lorem Ipsum kashdgfkashdfg jahsdgf oajdfgjafgdsj test",
+            text: (
+                <span>
+                    <p>
+                        - Support students and other assistant teachers,
+                        facilitating their integration and learning.
+                    </p>
+                    <p>
+                        - Review code, emphasizing performance and good
+                        practices.
+                    </p>
+                    <p>- Carry out technical interviews for new candidates.</p>
+                    <p>- Lead open programming workshops.</p>
+                </span>
+            ),
         },
     ];
 
