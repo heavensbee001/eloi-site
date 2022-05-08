@@ -23,7 +23,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </header>
             <div className="w-full max-w-screen-md">
                 <div className="h-20"></div>
-                <main className="relative px-4">{children}</main>
+                <main className="h-5/6 w-full max-w-screen-md fixed overflow-y-scroll px-4">
+                    {children}
+                </main>
                 <footer></footer>
             </div>
         </section>

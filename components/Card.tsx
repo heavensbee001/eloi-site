@@ -16,10 +16,10 @@ export default function Card({
     return (
         <div className="bg-black bg-opacity-50 p-4 mb-4">
             <h4 className="font-sans text-white">{title}</h4>
-            <span className="font-mono text-orange">{subtitle}</span>
-            {text && <span className="font-mono text-white">{text}</span>}
+            {subtitle && <p className="font-mono text-orange">{subtitle}</p>}
+            {text && <div className="font-mono text-white mt-2">{text}</div>}
             {img && (
-                <div className="h-56 mt-4 -m-4">
+                <div className={`h-56 mt-4 ${url ? "-mx-4" : "-m-4"}`}>
                     <div className="relative w-full h-full mt-4">
                         <Image
                             src={img}
@@ -29,6 +29,13 @@ export default function Card({
                         />
                     </div>
                 </div>
+            )}
+            {url && (
+                <p className="font-mono text-orange mt-4">
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                        watch project ⟶
+                    </a>
+                </p>
             )}
         </div>
     );

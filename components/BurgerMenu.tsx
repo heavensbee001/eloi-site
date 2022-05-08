@@ -24,7 +24,7 @@ export default function BurgerMenu() {
     return (
         <Fragment>
             <section
-                className="absolute top-4 right-4 w-8 h-10 z-20"
+                className="absolute top-4 right-4 w-8 h-10 z-20 cursor-pointer"
                 onClick={handleClick}
             >
                 <div

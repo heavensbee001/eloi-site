@@ -14,8 +14,8 @@ const Home: NextPage = () => {
                     Hi! I&apos;m Eloi
                 </h1>
                 <p className="font-mono text-white">
-                    I’m a full stack web developer. Passionate about innovation
-                    and new technologies.
+                    I’m a full stack web developer, curious explorer and
+                    passionate about innovation and new technologies.
                 </p>
             </section>
         </div>

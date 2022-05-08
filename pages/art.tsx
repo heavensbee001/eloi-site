@@ -15,7 +15,7 @@ export default function Projects() {
             title: "counting sheep",
             subtitle: "",
             img: "/projects/counting-sheep.png",
-            url: "Lorem Ipsum kashdgfkashdfg jahsdgf oajdfgjafgdsj test",
+            url: "https://editor.p5js.org/eloigil/sketches/l64gYtcm8",
         },
     ];
 

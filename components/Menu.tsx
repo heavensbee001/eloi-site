@@ -58,7 +58,7 @@ export default function Menu({ active }: { active: boolean }) {
         >
             {pages.map((page, index) => (
                 <Link href={page.href} passHref key={index}>
-                    <p className="font-sans text-orange text-2xl text-right mb-4">
+                    <p className="font-sans text-orange text-2xl text-right mb-4 cursor-pointer">
                         {page.name}
                     </p>
                 </Link>

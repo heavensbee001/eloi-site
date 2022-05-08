@@ -5,11 +5,17 @@ import Head from "next/head";
 export default function Projects() {
     const router = useRouter();
 
-    const cardsData: { title: string; subtitle: string; text: string }[] = [
+    const cardsData: {
+        title: string;
+        subtitle: string;
+        text: string;
+        url: string;
+    }[] = [
         {
             title: "wagmi Teams",
-            subtitle: "work in progress",
-            text: "Lorem Ipsum kashdgfkashdfg jahsdgf oajdfgjafgdsj test",
+            subtitle: "",
+            text: "Concept dapp where users can post their team open positions. Messages are registered into the polygon blockchain",
+            url: "https://wagmi-teams-heavensbee001.vercel.app/",
         },
     ];
 
