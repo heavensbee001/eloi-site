@@ -29,7 +29,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <footer></footer>
             </div>
             <section className="absolute w-full h-full top-0 left-0 overflow-hidden">
-                <span className="absolute -right-2/3 bottom-20 md right-32">
+                <span
+                    id="cloud-1"
+                    className="absolute -right-2/3 bottom-20 md:right-32"
+                >
                     <Image
                         src="/cloud1.png"
                         alt="cloud"
