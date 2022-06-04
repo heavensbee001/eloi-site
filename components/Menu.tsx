@@ -60,7 +60,7 @@ export default function Menu({ active }: { active: boolean }) {
             className={`z-10 absolute overflow-hidden -top-2 right-0 bg-white border-orange pt-20 border-orange rounded-bl-2xl rounded-br-2xl ${
                 active
                     ? "w-4/6 px-4 border-2 md:w-60 md:h-80"
-                    : "w-0 border-0 md:pt-0 md:h-0 md:w-60 md:px-4 md:border-2"
+                    : "w-0 border-0 md:pt-0 md:h-0 md:w-60 md:px-4 md:border-0"
             } ease-in-out duration-200`}
             // -----------------------------------------------------
         >
