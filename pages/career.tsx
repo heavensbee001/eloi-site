@@ -9,7 +9,15 @@ export default function Career() {
         {
             title: "Lemonade Software",
             subtitle: "current",
-            text: "",
+            text: (
+                <span>
+                    <p>
+                        - Develop the Import Control System 2 Application for
+                        the Taxation and Customs Union department of the
+                        European Commission. With Angular and Java.
+                    </p>
+                </span>
+            ),
         },
         {
             title: "Parlem Telecom",
@@ -22,8 +30,7 @@ export default function Career() {
                     </p>
                     <p>
                         - Develop several micro-services and backoffice software
-                        with Node + Express, NuxtJS, MongoDB, MySQL and Google
-                        Cloud.
+                        with Node + Express, MongoDB, MySQL and Google Cloud.
                     </p>
                 </span>
             ),
