@@ -17,6 +17,12 @@ export default function Projects() {
             img: "/projects/counting-sheep.png",
             url: "https://editor.p5js.org/eloigil/sketches/l64gYtcm8",
         },
+        {
+            title: "bamboo",
+            subtitle: "",
+            img: "/projects/bamboo.png",
+            url: "https://editor.p5js.org/eloigil/sketches/taZItGLEK",
+        },
     ];
 
     return (
