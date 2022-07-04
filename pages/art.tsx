@@ -23,6 +23,12 @@ export default function Projects() {
             img: "/projects/bamboo.png",
             url: "https://editor.p5js.org/eloigil/sketches/taZItGLEK",
         },
+        {
+            title: "Durmitor",
+            subtitle: "",
+            img: "/projects/durmitor.png",
+            url: "https://editor.p5js.org/eloigil/sketches/3pSDq5XC2",
+        },
     ];
 
     return (
