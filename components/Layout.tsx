@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import BurgerMenu from "./BurgerMenu";
+import Clouds from "./Clouds";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
@@ -28,19 +29,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </main>
                 <footer></footer>
             </div>
-            <section className="absolute w-full h-full top-0 left-0 overflow-hidden">
-                <span
-                    id="cloud-1"
-                    className="absolute -right-2/3 bottom-20 md:right-32"
-                >
-                    <Image
-                        src="/cloud1.png"
-                        alt="cloud"
-                        width={600}
-                        height={300}
-                    />
-                </span>
-            </section>
+            <Clouds />
         </section>
     );
 }
