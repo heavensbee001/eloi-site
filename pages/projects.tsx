@@ -17,25 +17,6 @@ export default function Projects() {
             text: "Concept dapp where users can post their team open positions. Messages are registered into the polygon blockchain",
             url: "https://wagmi-teams-heavensbee001.vercel.app/",
         },
-        {
-            title: "qr drop",
-            subtitle: "",
-            text: (
-                <p>
-                    This is a dapp where event organisers can generate QR links,
-                    allowing attendants to mint a soulbound NFT.
-                    <br />
-                    <br />
-                    <i>
-                        <b>Project under development</b> for the Polygon BUIDL
-                        IT : Summer 2022... It is not deployed yet, but you can
-                        check the code on my github
-                    </i>{" "}
-                    😉
-                </p>
-            ),
-            url: "https://github.com/heavensbee001",
-        },
     ];
 
     return (
