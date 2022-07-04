@@ -17,7 +17,7 @@ export default function Clouds() {
             <section className="absolute w-full bottom-20 left-0 overflow-hidden">
                 <Marquee gradient={false} speed={20}>
                     <div style={{ paddingLeft: "30vw" }}></div>
-                    <div>
+                    <div className="-scale-x-100">
                         <img src="/cloud1.png" alt="cloud" width={500} />
                     </div>
                     <div style={{ paddingLeft: "70vw" }}></div>
