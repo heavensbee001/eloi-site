@@ -7,8 +7,28 @@ export default function Career() {
 
     const cardsData: { title: string; subtitle: string; text: any }[] = [
         {
-            title: "Lemonade Software",
+            title: "Eden",
             subtitle: "current",
+            text: (
+                <span>
+                    <p>
+                        - Initially managed a team of 20+ developers sourced from developer-dao within Eden Protocol.
+                    </p>
+                    <p>
+                        - Took charge of the entire company stack upon Eden's evolution into a company.
+                    </p>
+                    <p>
+                        - Played a key role in iterating the product and business strategy.
+                    </p>
+                    <p>
+                        - Contributed to defining and refining company processes.
+                    </p>
+                </span>
+            ),
+        },
+        {
+            title: "Lemonade Software",
+            subtitle: "12/2020-03/2023",
             text: (
                 <span>
                     <p>
