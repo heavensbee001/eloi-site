@@ -30,7 +30,7 @@ export default function Projects() {
     {
       title: "wagmi Teams",
       subtitle: "",
-      text: "Concept dapp where users can post their team open positions. Messages are registered into the polygon blockchain",
+      text: "(Project is down due to mumbai testnet discontinuation)\nConcept dapp where users can post their team open positions. Messages are registered into the polygon blockchain",
       url: "https://wagmi-teams-heavensbee001.vercel.app/",
     },
     {
@@ -38,6 +38,7 @@ export default function Projects() {
       subtitle: "",
       text: (
         <p>
+          {"(Project is down due to mumbai testnet discontinuation)\n"}
           This is a dapp where event organisers can generate QR links, allowing
           attendants to mint a soulbound NFT.
           <br />
